@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E980C02-DC90-40E8-897B-B21DED29E86D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System</RootNamespace>
+    <AssemblyName>System.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action.2.cs" />
+    <Compile Include="Action.3.cs" />
+    <Compile Include="Action.cs" />
+    <Compile Include="Collections\Generic\HashSet.cs" />
+    <Compile Include="Func.2.cs" />
+    <Compile Include="Func.3.cs" />
+    <Compile Include="Func.cs" />
+    <Compile Include="InvalidTimeZoneException.cs" />
+    <Compile Include="Linq\Check.cs" />
+    <Compile Include="Linq\Enumerable.cs" />
+    <Compile Include="Linq\Expressions\BinaryExpression.cs" />
+    <Compile Include="Linq\Expressions\ConditionalExpression.cs" />
+    <Compile Include="Linq\Expressions\ConstantExpression.cs" />
+    <Compile Include="Linq\Expressions\ElementInit.cs" />
+    <Compile Include="Linq\Expressions\Expression.2.cs" />
+    <Compile Include="Linq\Expressions\Expression.cs" />
+    <Compile Include="Linq\Expressions\ExpressionPrinter.cs" />
+    <Compile Include="Linq\Expressions\ExpressionType.cs" />
+    <Compile Include="Linq\Expressions\ExpressionVisitor.cs" />
+    <Compile Include="Linq\Expressions\Extensions.cs" />
+    <Compile Include="Linq\Expressions\InvocationExpression.cs" />
+    <Compile Include="Linq\Expressions\LambdaExpression.cs" />
+    <Compile Include="Linq\Expressions\ListInitExpression.cs" />
+    <Compile Include="Linq\Expressions\MemberAssignment.cs" />
+    <Compile Include="Linq\Expressions\MemberBinding.cs" />
+    <Compile Include="Linq\Expressions\MemberBindingType.cs" />
+    <Compile Include="Linq\Expressions\MemberExpression.cs" />
+    <Compile Include="Linq\Expressions\MemberInitExpression.cs" />
+    <Compile Include="Linq\Expressions\MemberListBinding.cs" />
+    <Compile Include="Linq\Expressions\MemberMemberBinding.cs" />
+    <Compile Include="Linq\Expressions\MethodCallExpression.cs" />
+    <Compile Include="Linq\Expressions\NewArrayExpression.cs" />
+    <Compile Include="Linq\Expressions\NewExpression.cs" />
+    <Compile Include="Linq\Expressions\ParameterExpression.cs" />
+    <Compile Include="Linq\Expressions\TypeBinaryExpression.cs" />
+    <Compile Include="Linq\Expressions\UnaryExpression.cs" />
+    <Compile Include="Linq\Grouping.cs" />
+    <Compile Include="Linq\IGrouping.cs" />
+    <Compile Include="Linq\IOrderedEnumerable.cs" />
+    <Compile Include="Linq\OrderedEnumerable.cs" />
+    <Compile Include="Linq\OrderedSequence.cs" />
+    <Compile Include="Linq\QuickSort.cs" />
+    <Compile Include="Linq\SortContext.cs" />
+    <Compile Include="Linq\SortDirection.cs" />
+    <Compile Include="Linq\SortSequenceContext.cs" />
+    <Compile Include="MonoTODOAttribute.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Runtime\CompilerServices\ExtensionAttribute.cs" />
+    <Compile Include="Threading\LockRecursionException.cs" />
+    <Compile Include="Threading\LockRecursionPolicy.cs" />
+    <Compile Include="Threading\ReaderWriterLockSlim.cs" />
+    <Compile Include="TimeZoneInfo.cs" />
+    <Compile Include="TimeZoneNotFoundException.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

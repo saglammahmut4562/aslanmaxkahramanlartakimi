@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<settings>
-  <integer name="gles_mode">0</integer>
-  <integer name="splash_mode">1</integer>
-  <bool name="hide_status_bar">True</bool>
-  <bool name="useObb">True</bool>
-  <bool name="9180158f6c0adf964290a47337f221d8">True</bool>
-</settings>
